@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgb(0, 0, 255);
+    font-size: 21px;
+}
+.container{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(7, 7, 99, 0.206);
+
+}
+.containerChild{
+    background-color: rgb(107, 121, 211);
+    padding: 2px;
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    padding-left: 12.5px;
+    
+    
+}
+.display{
+    background-color: rgb(24, 7, 75);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+   padding: 5px 5px 0px 0px;
+    font-size: 30px;
+
+}
+.equals{
+    width: 125px;
+}
+.operator{
+    background-color: rgb(13, 1, 246);
+    color: white;
+    
+}
+.operator2{
+    background-color: rgb(255, 4, 4);
+    color: white;
+    
+}
+
+button{
+    margin-top: 3px;
+    width: 60px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 6px;
+    font-size: 21px;
+  
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.current-display{
+   
+        background-color: rgb(34, 6, 118);
+        color: white;
+        height: 40px;
+        display: flex;
+        justify-content: end;
+       
+        
+        padding: 5px 5px 0px 0px;
+        font-size: 20px;
+}
+.display-div{
+ border: 2px solid white;
+border-radius: 6px;
+margin: 8px 8px 5px 0px;
+
+
+}
