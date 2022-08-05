@@ -28,11 +28,11 @@ body{
 .display{
     background-color: rgb(24, 7, 75);
     color: white;
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: end;
    padding: 5px 5px 0px 0px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 .equals{
@@ -67,13 +67,13 @@ button:hover{
    
         background-color: rgb(34, 6, 118);
         color: white;
-        height: 40px;
+        height: 60px;
         display: flex;
         justify-content: end;
        
         
         padding: 5px 5px 0px 0px;
-        font-size: 20px;
+        font-size: 30px;
 }
 .display-div{
  border: 2px solid white;
@@ -81,4 +81,7 @@ border-radius: 6px;
 margin: 8px 8px 5px 0px;
 
 
+}
+.ac{
+    width: 120px;
 }
