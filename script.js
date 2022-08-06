@@ -73,6 +73,7 @@ class Calculator {
       return integerDisplay
     }
   }
+  
 
   updateDisplay() {
     this.currentOperandTextElement.innerText = this.getDisplayNumber(
